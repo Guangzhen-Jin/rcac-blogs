@@ -1,3 +1,10 @@
+---
+tags:
+  - Anvil
+authors:
+  - jin456
+---
+
 Purdue University is the home of Anvil, a powerful new supercomputer that provides advanced computing capabilities to support a wide range of computational and data-intensive research spanning from traditional high-performance computing to modern artificial intelligence applications.
 
 Anvil, which is funded by a $10 million award from the National Science Foundation, significantly increases the capacity available to the NSF&#39;s <a href="https://access-ci.org/">Advanced Cyberinfrastructure Coordination Ecosystem: Services &amp; Support (ACCESS)</a> program, which serves tens of thousands of researchers across the U.S.. Anvil enters production in 2021 and serves researchers for five years. Additional funding from the NSF supports Anvil&#39;s operations and user support.
