@@ -1,8 +1,8 @@
 ---
 date:
-  created: 2025-08-01
+  created: 2025-07-01
   #Sometimes, bloggers need to update a post. This might happen when you make a mistake or when something changes that you need to reflect in the post. To indicate you have edited a post, you can include an updated date in the page header.
-  updated: 2025-08-05
+  updated: 2025-07-05
 
 # To give the reader some idea of how long it might take them to read a post, a read time is automatically calculated. If you want to override this, you can do so in the page header by specifying the number of minutes you estimate your readers will take the read the post.
 readtime: 15

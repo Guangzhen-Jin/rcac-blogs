@@ -10,15 +10,16 @@ theme:
   name: material
   logo: assets/purdue.png
   custom_dir: overrides
-
   features:
-  # Back-to-top button¶
-  - navigation.top
-  - navigation.indexes
-  - toc.follow
-  - search.suggest
-  - search.highlight
-  #- search.share
+    - navigation.indexes
+    # Back-to-top button¶
+    - navigation.top
+    #  - navigation.sections
+    #  - navigation.expand
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    #- search.share
 
   
   palette:
@@ -42,21 +43,27 @@ plugins:
       archive_date_format: MMMM yyyy
       post_date_format: long
       categories_allowed:
+        - Anvil
         - Holidays
         - News
-        - Anvil
       pagination_per_page: 5
       pagination_if_single_page: true
   - tags:
-      tags_file: blog/tags.md
+      enabled: true
+
 
 nav:
   - Home: index.md
-  # - Install: install.md
+  - Anvil User Guide: 
+    - Anvil Overview: userguides/anvil/anvil_overview.md
+    - Accessing the System: userguides/anvil/anvil_access.md
+    - System Architecture: userguides/anvil/anvil_system.md
+  - Gautschi User Guide:
+    - Gautschi Overview: userguides/gautschi/gautschi_overview.md
   # - Usage: usage.md
   - Blog:
-     - blog/index.md
-     - Tags: blog/tags.md
+    - blog/index.md
+    - Tags: blog/tags.md
 
 # Copyright
 copyright: Copyright &copy; 2025 RCAC
