@@ -1,0 +1,127 @@
+site_name: RCAC Blogs
+site_description: RCAC Blogs written by scientists.
+site_url: https://rcac-blogs.readthedocs.io
+
+#nav:
+#  - Home: index.md
+#  - About Anvil: about.md
+
+theme:
+  name: material
+  logo: assets/purdue.png
+  features:
+  - navigation.indexes
+  - toc.follow
+  # Back-to-top button¶
+  - navigation.top
+
+
+  
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+  - blog:
+      archive_date_format: MMMM yyyy
+      post_date_format: long
+      categories_allowed:
+        - Holidays
+        - News
+        - Anvil
+      pagination_per_page: 5
+      pagination_if_single_page: true
+  - tags:
+      tags_file: blog/tags.md
+
+nav:
+  - Home: index.md
+  # - Install: install.md
+  # - Usage: usage.md
+  - Blog:
+     - blog/index.md
+     - Tags: blog/tags.md
+
+# Copyright
+copyright: Copyright &copy; 2025 RCAC
+
+extra:
+  social:
+  # - icon: fontawesome/brands/mastodon
+  #   name: squidfunk on Mastodon
+  #   link: https://fosstodon.org/@squidfunk
+  - icon: /fontawesome/regular/envelope
+    name: Get additional help from rcac-help
+    link: mailto:<rcac-help@purdue.edu>
+  - icon: /material/mailbox
+    name: contact us
+    link: /contact
+
+features:
+  - search.suggest
+  - search.highlight
+  - search.share
+  - navigation.top
+  - navigation.tabs
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+# # Adding share buttons
+# hooks:
+#   - hooks/socialmedia.py
+
+# markdown_extensions:
+#   - attr_list
+#   - pymdownx.emoji:
+#       emoji_index: !!python/name:material.extensions.emoji.twemoji
+#       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  # palette:
+  #   # Palette toggle for light mode
+  #   - media: "(prefers-color-scheme: light)"
+  #     scheme: default
+  #     toggle:
+  #       icon: material/brightness-7
+  #       name: Switch to dark mode
+
+  #   # Palette toggle for dark mode
+  #   - media: "(prefers-color-scheme: dark)"
+  #     scheme: slate
+  #     toggle:
+  #       icon: material/brightness-4
+  #       name: Switch to light mode
+
+  # features:
+  #   - search.suggest
+  #   - search.highlight
+  #   - search.share
+  #   - navigation.top
+  #   - navigation.tabs
+
+
+
+# markdown_extensions:
+#   - toc:
+#       permalink: true
+#   - tables
+#   - attr_list
+#   - md_in_html
+#   - pymdownx.blocks.caption
