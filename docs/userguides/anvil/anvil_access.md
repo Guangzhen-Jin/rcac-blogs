@@ -1,18 +1,11 @@
 ---
-date:
-  created: 2025-08-01
-  #Sometimes, bloggers need to update a post. This might happen when you make a mistake or when something changes that you need to reflect in the post. To indicate you have edited a post, you can include an updated date in the page header.
-  updated: 2025-08-05
-
-
-categories:
-  - Anvil
-
 tags:
   - Anvil
   - ACCESS
 authors:
   - jin456
+search:
+  boost: 1
 ---
 
 # Accessing the System

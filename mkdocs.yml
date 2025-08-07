@@ -82,7 +82,7 @@ extra:
     link: /contact
   analytics:
     provider: google
-    property: G-XXXXXXXXXX 
+    property: G-3D80JBWGP0 
     feedback:
       title: Was this page helpful?
       ratings:
