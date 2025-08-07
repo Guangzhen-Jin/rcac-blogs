@@ -9,12 +9,16 @@ site_url: https://rcac-blogs.readthedocs.io
 theme:
   name: material
   logo: assets/purdue.png
+  custom_dir: overrides
+
   features:
-  - navigation.indexes
-  - toc.follow
   # Back-to-top button¶
   - navigation.top
-
+  - navigation.indexes
+  - toc.follow
+  - search.suggest
+  - search.highlight
+  #- search.share
 
   
   palette:
