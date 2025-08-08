@@ -45,6 +45,7 @@ plugins:
       post_date_format: long
       categories_allowed:
         - Anvil
+        - Software
         - Holidays
         - News
       pagination_per_page: 5
@@ -56,14 +57,15 @@ plugins:
 
 nav:
   - Home: index.md
-  - Anvil User Guide: 
-    - Anvil Overview: userguides/anvil/anvil_overview.md
-    - Accessing the System: userguides/anvil/anvil_access.md
-    - System Architecture: userguides/anvil/anvil_system.md
-  - Gautschi User Guide:
-    - Gautschi Overview: userguides/gautschi/gautschi_overview.md
-  # - Usage: usage.md
-  - Blogs:
+  - HPC User Guides:
+    - Anvil User Guide: 
+      - Anvil Overview: userguides/anvil/anvil_overview.md
+      - Accessing the System: userguides/anvil/anvil_access.md
+      - System Architecture: userguides/anvil/anvil_system.md
+    - Gautschi User Guide:
+      - Gautschi Overview: userguides/gautschi/gautschi_overview.md
+      - Biography of Gautschi: userguides/gautschi/gautschi_biography.md
+  - RCAC Blogs:
     - blog/index.md
     #- Tags: blog/tags.md
 

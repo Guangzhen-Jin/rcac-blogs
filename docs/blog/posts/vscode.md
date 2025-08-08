@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2025-08-01
+  created: 2025-08-08
   #Sometimes, bloggers need to update a post. This might happen when you make a mistake or when something changes that you need to reflect in the post. To indicate you have edited a post, you can include an updated date in the page header.
   #updated: 2025-08-05
 
@@ -23,6 +23,8 @@ Vim), because of it's remote development capabilities.
 Users will often ask if it is possible (or just how to) use VS Code on the
 clusters. The following is the best answer for now and is specific to Anvil but
 is the same for all community clusters.
+
+<!-- more -->
 
 ---
 

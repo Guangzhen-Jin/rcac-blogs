@@ -1,10 +1,12 @@
+# Gautschi Overview
+
 Gautschi is a Community Cluster optimized for communities running traditional, tightly-coupled science and engineering applications. The Gautschi Community Cluster is equipped with both CPU and GPU compute nodes, each designed for specific computational tasks. The cluster includes Dell CPU compute nodes that feature dual 96-core AMD Epyc "Genoa" processors, providing 192 cores per node and 384 GB of memory. GPU compute nodes come with two 56-core Intel Xeon Platinum 8480+ processors, a total of 1031 GB of CPU memory, and eight NVIDIA H100 GPUs, each boasting 80 GB of memory.  All compute nodes have 400 Gbps NDR Infiniband interconnect and service through 2030.
 
-Access to the Gautschi cluster is being offered in units of 48-cores or one quarter share of a CPU node or 5 GPU-year package for GPU nodes. To purchase access to Gautschi today, go to the Cluster Access Purchase page. Please subscribe to our Community Cluster Program Mailing List to stay informed on the latest purchasing developments or contact us via email at rcac-cluster-purchase@lists.purdue.edu if you have any questions.
+Access to the Gautschi cluster is being offered in units of 48-cores or one quarter share of a CPU node or 5 GPU-year package for GPU nodes. To purchase access to Gautschi today, go to the Cluster Access Purchase page. Please subscribe to our Community Cluster Program Mailing List to stay informed on the latest purchasing developments or contact us via email at [rcac-cluster-purchase@lists.purdue.edu](mailto:rcac-cluster-purchase@lists.purdue.edu) if you have any questions.
 
 ## Gautschi Namesake
 
-Gautschi is named in honor of Dr. Walter Gautschi, the Professor in the Department of Computer Science and Mathematics at Purdue. More information about his life and impact on Purdue is available in a Biography of Gautschi.
+Gautschi is named in honor of Dr. Walter Gautschi, the Professor in the Department of Computer Science and Mathematics at Purdue. More information about his life and impact on Purdue is available in a [Biography of Gautschi](gautschi_biography.md).
 
 ## Gautschi Specifications
 
