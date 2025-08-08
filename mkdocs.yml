@@ -1,4 +1,4 @@
-site_name: RCAC Blogs
+site_name: RCAC Documentation
 site_description: RCAC Blogs written by scientists.
 site_url: https://rcac-blogs.readthedocs.io
 
@@ -9,6 +9,7 @@ site_url: https://rcac-blogs.readthedocs.io
 theme:
   name: material
   logo: assets/purdue.png
+  favicon: assets/purdue.png
   custom_dir: overrides
   features:
     - navigation.indexes
