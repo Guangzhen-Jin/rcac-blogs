@@ -14,6 +14,7 @@ theme:
     - navigation.indexes
     # Back-to-top button¶
     - navigation.top
+    - navigation.footer
     #  - navigation.sections
     #  - navigation.expand
     - toc.follow
@@ -66,8 +67,6 @@ nav:
     - blog/index.md
     #- Tags: blog/tags.md
 
-# Copyright
-copyright: Copyright &copy; 2025 RCAC
 
 extra:
   social:
@@ -77,12 +76,18 @@ extra:
   - icon: /fontawesome/regular/envelope
     name: Get additional help from rcac-help
     link: mailto:<rcac-help@purdue.edu>
+  - icon: fontawesome/brands/github
+    name: Check RCAC public GitHub page
+    link: https://github.com/PurdueRCAC
+  - icon: fontawesome/brands/x-twitter
+    name: Follow RCAC on X
+    link: https://x.com/PurdueRCAC
   - icon: /material/mailbox
     name: contact us
     link: /contact
   analytics:
     provider: google
-    property: G-3D80JBWGP0 
+    property: G-3D80JBWGP0  # Guangzhen's Google Analytics
     feedback:
       title: Was this page helpful?
       ratings:
@@ -116,3 +121,6 @@ markdown_extensions:
 # # Adding share buttons
 # hooks:
 #   - hooks/socialmedia.py
+
+# Copyright
+copyright: Copyright &copy; 2025 Rosen Center for Advanced Computing
