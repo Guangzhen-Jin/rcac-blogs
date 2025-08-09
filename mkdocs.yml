@@ -9,7 +9,7 @@ site_url: https://rcac-blogs.readthedocs.io
 theme:
   name: material
   logo: assets/purdue.png
-  favicon: assets/purdue.png
+  favicon: assets/purdue_favicon.ico
   custom_dir: overrides
   features:
     - navigation.indexes
@@ -60,12 +60,14 @@ nav:
   - Home: index.md
   - HPC User Guides:
     - Anvil User Guide: 
-      - Anvil Overview: userguides/anvil/anvil_overview.md
-      - Accessing the System: userguides/anvil/anvil_access.md
-      - System Architecture: userguides/anvil/anvil_system.md
+      - userguides/anvil/index.md
+      - Anvil Overview: userguides/anvil/overview.md
+      - Accessing the System: userguides/anvil/access.md
+      - System Architecture: userguides/anvil/system.md
     - Gautschi User Guide:
-      - Gautschi Overview: userguides/gautschi/gautschi_overview.md
-      - Biography of Gautschi: userguides/gautschi/gautschi_biography.md
+      - userguides/gautschi/index.md
+      - Gautschi Overview: userguides/gautschi/overview.md
+      - Biography of Gautschi: userguides/gautschi/biography.md
   - RCAC Blogs:
     - blog/index.md
     #- Tags: blog/tags.md
