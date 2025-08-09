@@ -47,8 +47,7 @@ plugins:
       categories_allowed:
         - Anvil
         - Software
-        - Holidays
-        - News
+        - Slurm
       pagination_per_page: 5
       pagination_if_single_page: true
   - tags:
