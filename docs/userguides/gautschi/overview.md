@@ -6,7 +6,7 @@ Access to the Gautschi cluster is being offered in units of 48-cores or one quar
 
 ## Gautschi Namesake
 
-Gautschi is named in honor of Dr. Walter Gautschi, the Professor in the Department of Computer Science and Mathematics at Purdue. More information about his life and impact on Purdue is available in a [Biography of Gautschi](gautschi_biography.md).
+Gautschi is named in honor of Dr. Walter Gautschi, the Professor in the Department of Computer Science and Mathematics at Purdue. More information about his life and impact on Purdue is available in a [Biography of Gautschi](biography.md).
 
 ## Gautschi Specifications
 

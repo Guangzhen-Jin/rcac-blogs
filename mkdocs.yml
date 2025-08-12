@@ -11,6 +11,9 @@ theme:
   logo: assets/purdue.png
   favicon: assets/purdue_favicon.ico
   custom_dir: overrides
+  font:
+    text: Roboto
+    code: Consolas
   features:
     - navigation.indexes
     # Back-to-top button¶
@@ -74,9 +77,6 @@ nav:
 
 extra:
   social:
-  # - icon: fontawesome/brands/mastodon
-  #   name: squidfunk on Mastodon
-  #   link: https://fosstodon.org/@squidfunk
   - icon: /fontawesome/regular/envelope
     name: Get additional help from rcac-help
     link: mailto:<rcac-help@purdue.edu>
@@ -86,6 +86,9 @@ extra:
   - icon: fontawesome/brands/x-twitter
     name: Follow RCAC on X
     link: https://x.com/PurdueRCAC
+  - icon: fontawesome/brands/discord
+    name: Join our Purdue RCD Community Discord channel
+    link: https://discord.gg/RmtKZmaQW9
   - icon: /material/mailbox
     name: contact us
     link: /contact

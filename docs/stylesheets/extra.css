@@ -1,52 +1,30 @@
-/* [data-md-color-scheme="purdue"] {
-    --md-primary-fg-color:        #CBBA94;
-    --md-accent-fg-color:         #CBBA94;
-    --md-primary-fg-color--light: #000000;
-    --md-primary-fg-color--dark:  #CBBA94;
-  } */
+/* Light mode */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: black;
+  --md-primary-bg-color: #CBBA94;
+  --md-accent-bg-color: #CBBA94;
+  --md-accent-fg-color: #CBBA94;
+  --md-typeset-a-color: #8e6f3e;
+}
 
-  /* :root {
+/* Dark mode */
+[data-md-color-scheme="slate"][data-md-color-primary] {
+  /* --md-default-fg-color: #CBBA94;  */ 
+  /* --md-default-bg-color: #CBBA94; */
+  --md-typeset-a-color: #ebd99f;
+  --md-primary-fg-color: #CBBA94;
+  --md-accent-fg-color: #8e6f3e;
+}
 
-    /* Primary color shades 
-    --md-primary-fg-color: #861f41;
-    --md-primary-fg-color--light: #861f4194;
-    --md-primary-fg-color--dark: #ac325a;
-    --md-primary-bg-color: hsla(0, 0%, 100%, 1);
-    --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
-    --md-text-link-color: hsla(231, 48%, 48%, 1);
+@font-face {
+  font-family: "UnitedSans";
+  src: url("/assets/fonts/UnitedSans_purdue_2023/UnitedSansSmExBd.otf") format('truetype');
+}
 
-    /* Accent color shades 
-    --md-accent-fg-color: rgb(98, 18, 189);
-    --md-accent-fg-color--transparent: hsla(189, 100%, 37%, 0.1);
-    --md-accent-bg-color: hsla(0, 0%, 100%, 1);
-    --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
-  } */
+.md-nav__link--active {
+  font-weight: bold;
+}
 
-  :root > * {
-  
-     /* Primary color shades */
-    /* --md-primary-fg-color: #CBBA94; */
-    /* --md-primary-fg-color--light: #861f4194;
-    --md-primary-fg-color--dark: #ac325a;
-    --md-primary-bg-color: hsla(0, 0%, 100%, 1);
-    --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
-    --md-text-link-color: hsla(231, 48%, 48%, 1); */ */
-    /* --md-text-link-color: #CBBA94; */
-
-    /* Accent color shades */
-    /* --md-accent-fg-color: #CBBA94;
-    --md-accent-fg-color--transparent: hsla(189, 100%, 37%, 0.1);
-    --md-accent-bg-color: hsla(0, 0%, 100%, 1);
-    --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7); */
-
-    /* Code block color shades */
-    /* --md-code-bg-color: hsla(0, 0%, 96%, 1);
-    --md-code-fg-color: hsla(200, 18%, 26%, 1); */
-
-    /* Footer */
-    /* --md-footer-bg-color: #CBBA94;
-    --md-footer-bg-color--dark: hsla(0, 0%, 0%, 0.32);
-    --md-footer-fg-color: hsla(0, 0%, 100%, 1);
-    --md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7);
-    --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3); */
-  }
+/* :root {
+  --md-text-font: "UnitedSans"; 
+} */
