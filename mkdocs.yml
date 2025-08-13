@@ -123,11 +123,14 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
   - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+  - pymdownx.snippets
+  - pymdownx.superfences
 # # Adding share buttons
 # hooks:
 #   - hooks/socialmedia.py

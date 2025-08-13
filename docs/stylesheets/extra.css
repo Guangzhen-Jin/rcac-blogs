@@ -25,6 +25,14 @@
   font-weight: bold;
 }
 
+.md-header__title { /* Example selector for the header navigation title */
+  font-family: 'UnitedSans'; 
+}
+
+.md-nav__title { /* Example selector for the header navigation title */
+  font-family: 'UnitedSans'; 
+}
+
 /* :root {
   --md-text-font: "UnitedSans"; 
 } */
