@@ -8,20 +8,20 @@ hide:
 
 This is a space where RCAC staff share their opinions, best practices regarding using RCAC resources in best practice.
 
-# Use snippet
-## Include one entire snippet file
+## Use snippet
+### Include one entire snippet file
 --8<-- "docs/snippets/account.md"
-## Include snippet file in a code block
+### Include snippet file in a code block
 ``` title="account.md"
 --8<-- "docs/snippets/account.md"
 ```
-## Include two snippet files
+### Include two snippet files
 --8<--
 docs/snippets/account.md
 docs/snippets/login.md
 --8<--
 
-# Use admonitions
+## Use admonitions
 ??? "This is a collapsible note"
     Welcome to RCAC documentation!
 
