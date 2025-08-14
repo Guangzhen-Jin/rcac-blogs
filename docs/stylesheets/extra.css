@@ -16,13 +16,13 @@
   --md-accent-fg-color: #8e6f3e;
 }
 
+.md-nav__link--active {
+  font-weight: bold;
+}
+
 @font-face {
   font-family: "UnitedSans";
   src: url("/assets/fonts/UnitedSans_purdue_2023/UnitedSansSmExMd.otf") format('truetype');
-}
-
-.md-nav__link--active {
-  font-weight: bold;
 }
 
 .md-header__title { /* Example selector for the header navigation title */
@@ -31,6 +31,17 @@
 
 .md-nav__title { /* Example selector for the header navigation title */
   font-family: 'UnitedSans'; 
+}
+
+/* Adjust nav font size */
+/* .md-tabs__link {
+  font-size: 0.9rem;
+} */
+/* .md-nav__title {
+  font-size: 0.8rem; 
+} */
+.md-nav__link {
+  font-size: 0.8rem; /* Adjust as needed */
 }
 
 /* :root {

@@ -57,6 +57,7 @@ plugins:
       enabled: true
   - git-revision-date-localized:
       enable_creation_date: true
+  - macros
 
 nav:
   - Home: index.md
@@ -73,7 +74,7 @@ nav:
   - RCAC Blogs:
     - blog/index.md
     #- Tags: blog/tags.md
-
+  - Templates and Notes: notes.md
 
 extra:
   social:
@@ -92,6 +93,7 @@ extra:
   - icon: /material/mailbox
     name: contact us
     link: /contact
+  org: Rosen Center for Advanced Computing
   analytics:
     provider: google
     property: G-3D80JBWGP0  # Guangzhen's Google Analytics
@@ -131,6 +133,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 # # Adding share buttons
 # hooks:
 #   - hooks/socialmedia.py
