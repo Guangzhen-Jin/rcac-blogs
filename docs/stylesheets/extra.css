@@ -18,11 +18,19 @@
 
 @font-face {
   font-family: "UnitedSans";
-  src: url("/assets/fonts/UnitedSans_purdue_2023/UnitedSansSmExBd.otf") format('truetype');
+  src: url("/assets/fonts/UnitedSans_purdue_2023/UnitedSansSmExMd.otf") format('truetype');
 }
 
 .md-nav__link--active {
   font-weight: bold;
+}
+
+.md-header__title { /* Example selector for the header navigation title */
+  font-family: 'UnitedSans'; 
+}
+
+.md-nav__title { /* Example selector for the header navigation title */
+  font-family: 'UnitedSans'; 
 }
 
 /* :root {
