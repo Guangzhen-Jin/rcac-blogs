@@ -4,6 +4,9 @@ hide:
 # icon: /fontawesome/regular/home
 ---
 
+!!! warning "**This is a demo site**"
+    **You are visiting a demo site designed for testing purposes only. Any contents on this website cannot be referred to for any RCAC resource!**
+
 # Welcome to RCAC Documentation
 
 This is a space where RCAC staff share their opinions, best practices regarding using RCAC resources in best practice.

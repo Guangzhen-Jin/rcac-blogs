@@ -9,7 +9,7 @@ site_url: https://rcac-blogs.readthedocs.io
 theme:
   name: material
   logo: assets/purdue.png
-  favicon: assets/purdue_favicon.ico
+  favicon: assets/purdue_favicon.png
   custom_dir: overrides
   font:
     text: Roboto
@@ -98,12 +98,12 @@ extra:
     feedback:
       title: Was this page helpful?
       ratings:
-        - icon: material/emoticon-happy-outline
+        - icon: material/thumb-up-outline
           name: This page was helpful
           data: 1
           note: >-
             Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
+        - icon: material/thumb-down-outline
           name: This page could be improved
           data: 0
           note: >- 
