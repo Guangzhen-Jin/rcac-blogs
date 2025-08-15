@@ -7,7 +7,11 @@ date:
 categories:
   - Software
 
-title: vscode_rcac
+#Title will change how it's displayed on website
+title: VS Code on RCAC Resources
+
+#Slug will change how it's shown in the domain url
+slug: vscode_rcac
 
 tags:
   - Login

@@ -20,6 +20,7 @@ This is a space where RCAC staff share their opinions, best practices regarding 
     ---
 
     User guide for Anvil.
+    <!-- ![anvil](assets/anvil_title.png) -->
 
     [:octicons-arrow-right-24: Getting started](userguides/anvil)
 

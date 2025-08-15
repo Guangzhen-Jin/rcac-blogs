@@ -61,7 +61,12 @@ And result would be:
 --8<--
 docs/snippets/account.md
 docs/snippets/login.md
---8<-
+--8<--
+
+#### Include snippet section (part of snippet)
+--8<-- "docs/snippets/app.md:python"
+--8<-- "docs/snippets/app.md:matlab"
+
 
 ### 2. Macros + snippets
 

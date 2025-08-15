@@ -8,7 +8,11 @@ date:
 categories:
   - Software
 
-title: rstudio_timeout
+#Title will change how it's displayed on website
+title: RStudio Server Timeout
+
+#Slug will change how it's shown in the domain url
+slug: rstudio_timeout
 
 tags:
   - Rstudio
@@ -18,7 +22,7 @@ authors:
 
 ---
 
-# Addressing RStudio Server Timeouts issue
+# Addressing RStudio Server Timeout issue
 
 RStudio Server times out after approximately 60 minutes of inactivity. Upon re-entering the session, users are often face login screen where their credentials do not work. 
 

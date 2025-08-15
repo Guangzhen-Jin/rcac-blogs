@@ -7,7 +7,11 @@ date:
 categories:
   - Anvil
 
-title: firsttime_login_issue
+#Title will change how it's displayed on website
+title: First Time Login Issue
+
+#Slug will change how it's shown in the domain url
+slug: firsttime_login_issue
 
 tags:
   - Halcyon

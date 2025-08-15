@@ -2,10 +2,6 @@ site_name: RCAC Documentation
 site_description: RCAC Blogs written by scientists.
 site_url: https://rcac-blogs.readthedocs.io
 
-#nav:
-#  - Home: index.md
-#  - About Anvil: about.md
-
 theme:
   name: material
   logo: assets/purdue.png
@@ -69,11 +65,12 @@ nav:
       - System Architecture: userguides/anvil/system.md
     - Gautschi User Guide:
       - userguides/gautschi/index.md
-      - Gautschi Overview: userguides/gautschi/overview.md
       - Biography of Gautschi: userguides/gautschi/biography.md
+      - Gautschi Overview: userguides/gautschi/overview.md
   - RCAC Blogs:
     - blog/index.md
     #- Tags: blog/tags.md
+  - RCAC Tags: tags.md
   - Templates and Notes: notes.md
 
 extra:
