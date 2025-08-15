@@ -1,3 +1,12 @@
+---
+tags:
+  - Gautschi
+authors:
+  - jin456
+search:
+  boost: 1
+---
+
 # Gautschi Overview
 
 Gautschi is a Community Cluster optimized for communities running traditional, tightly-coupled science and engineering applications. The Gautschi Community Cluster is equipped with both CPU and GPU compute nodes, each designed for specific computational tasks. The cluster includes Dell CPU compute nodes that feature dual 96-core AMD Epyc "Genoa" processors, providing 192 cores per node and 384 GB of memory. GPU compute nodes come with two 56-core Intel Xeon Platinum 8480+ processors, a total of 1031 GB of CPU memory, and eight NVIDIA H100 GPUs, each boasting 80 GB of memory.  All compute nodes have 400 Gbps NDR Infiniband interconnect and service through 2030.

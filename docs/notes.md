@@ -5,19 +5,6 @@ host: anvil.rcac.purdue.edu
 # icon: /fontawesome/regular/home
 ---
 
-## Use snippet
-### Include one entire snippet file
---8<-- "docs/snippets/account.md"
-### Include snippet file in a code block
-``` title="account.md"
---8<-- "docs/snippets/account.md"
-```
-### Include two snippet files
---8<--
-docs/snippets/account.md
-docs/snippets/login.md
---8<-
-
 ## Macros
 I defined the following global variables in `mkdocs.yml`:
 ``` yml
@@ -39,7 +26,44 @@ So I can use both variables: `org` and `host` in macros as below:
 === "SSH to other HPC clusters"
     Please refer to user guides from {{ org }}'s website.
 
-### Macros + snippets
+## Snippet
+In general, there are two ways to use snippets within Mkdocs.
+- First, if the snippet can be applied without any content change, they can be used directly with `pymdownx.snippets` extension.
+- Second, if the snippet will include variables (e.g. specific cluster name), a combination of macro + snippet is required.
+
+### 1. Use entire snippets
+I have two snippets under `snippets` folder.
+
+=== "account.md"
+    This is a snippet for account.
+=== "login.md"
+    {% raw %}
+    This is a snippet for login.
+    Please use `ssh username@{{ host }}` to login.
+    {% endraw %}
+
+#### Include one entire snippet file
+Use command to include the entire snippet:
+<pre>
+<code>
+--8&lt;-- "docs/snippets/account.md"
+</code>
+</pre>
+
+And result would be:
+
+--8<-- "docs/snippets/account.md"
+#### Include snippet file in a code block
+``` title="account.md"
+--8<-- "docs/snippets/account.md"
+```
+#### Include two snippet files
+--8<--
+docs/snippets/account.md
+docs/snippets/login.md
+--8<-
+
+### 2. Macros + snippets
 
 The snippets will have to be defined in `main.py` under the same directory with `mkdocs.yml`.
 ??? example "main.py"
